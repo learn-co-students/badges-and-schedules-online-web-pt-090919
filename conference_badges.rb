@@ -46,4 +46,6 @@ def printer(attendees)
     #     puts x
     # end
 
+    new_array = batch_badge_creator(attendees).each { |x| puts x }
+    assign_rooms(attendees).each { |x| puts x }
 end
