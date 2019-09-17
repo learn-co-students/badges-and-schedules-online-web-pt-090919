@@ -1,5 +1,6 @@
 # Commented out code represents alternative approaches to getting the tests to pass.
 # There are many ways to solve a problem!
+# Play around with commenting out different code blocks if you don't believe :)
 
 def badge_maker(name)
     "Hello, my name is #{name}."
@@ -45,6 +46,4 @@ def printer(attendees)
     #     puts x
     # end
 
-    new_array = batch_badge_creator(attendees).each { |x| puts x }
-    assign_rooms(attendees).each { |x| puts x }
 end
