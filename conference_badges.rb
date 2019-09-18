@@ -8,8 +8,8 @@ end
 
 def assign_rooms(speakers)
   assignments = []
-  speakers.each_with_index do |speaker, index|
-    assignments.push("Hello, #{speaker}! You'll be assigned to room #{index + 1}!")
+  speakers.each.with_index(1) do |speaker, index|
+    assignments.push("Hello, #{speaker}! You'll be assigned to room #{index}!")
   end
   assignments
 end
